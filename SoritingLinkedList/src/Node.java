@@ -2,7 +2,7 @@
 public class Node{
 	
 	private int data;
-	
+	//pointer to next element
 	private Node next;
 	
 	public Node(int d){
