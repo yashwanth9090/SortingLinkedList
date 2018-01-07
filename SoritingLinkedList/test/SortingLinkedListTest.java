@@ -32,12 +32,13 @@ public class SortingLinkedListTest {
 		Collections.sort(expectedLinkedList);
 		assertEquals(expectedLinkedList,actualLinkedList.getAsList());
 	}
-	
+
 	@Test(expected = NullPointerException.class)
 	public void testEmptyList(){
 		actualLinkedList.getAsList();
 	}
 	
+	// testing linked list with single element in it
 	@Test
 	public void testSingleNode(){
 		actualLinkedList.insert(3);
