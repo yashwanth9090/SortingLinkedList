@@ -23,6 +23,8 @@ class LinkedList1 implements MergeSortLinkedList{
 		}
 		return;
 	}
+	
+	// prints linked list elements
 	public void print() {
 		Node temp =  mergeSortLinkedList(head);
 		if(head == null){
@@ -37,6 +39,7 @@ class LinkedList1 implements MergeSortLinkedList{
 		
 	}
 	
+	// returns linked list elements as a collection
 	public ArrayList<Integer> getAsList(){
 		Node temp = mergeSortLinkedList(head);
 		if(head == null){
