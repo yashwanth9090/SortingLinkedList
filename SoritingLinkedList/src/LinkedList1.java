@@ -92,6 +92,7 @@ class LinkedList1 implements MergeSortLinkedList{
 		return temp;
 	}
 	
+	// middle element of linked list
 	private Node getMiddle(Node head2) {
 		if(head2 == null){
 			return head2;
