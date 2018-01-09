@@ -7,6 +7,7 @@ class LinkedList1 implements MergeSortLinkedList{
 		return head;
 	}
 	
+	// insert elements into linkedlist
 	public void insert(int value) {
 		Node newNode = new Node(value);
 		if(head == null){
