@@ -73,7 +73,7 @@ class LinkedList1 implements MergeSortLinkedList{
 		return sortedList;
 	}
 	
-	// 
+	// perofroming merge sort on sub linked lists
 	private Node mergeTwoSubLinkedLists(Node left, Node right) {
 		if(left==null){
 			return right;
